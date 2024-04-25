@@ -150,15 +150,32 @@ main {
 }
 
 .sectionClients{
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .sectionLeft p,
 .sectionRight p,
 .sectionClients p {
     width: 50%;
-    
     margin-left: 25%;
+}
+
+@media only screen and (max-width: 767px) {
+  .sectionContent {
+    display: flex;
+      flex-direction: column; /* Vuelve a la disposición en fila en pantallas más grandes */
+  }
+  .sectionVertical {
+    display: none; /* Oculta la imagen en dispositivos móviles */
+} 
+  
+
+  .sectionLeft p,
+  .sectionRight p,
+  .sectionClients p {
+      width: 100%; /* Divide el ancho en pantallas más grandes */
+      margin-left: 0%; /* Ajusta el margen izquierdo en pantallas más grandes */
+  }
 }
 
 .Ppadre{
