@@ -214,7 +214,7 @@ main {
 
 .img-f img,
 .img-g img {
-    max-width: 70%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+    max-width: 50%; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
     height: auto; /* Ajusta la altura automáticamente para mantener la proporción */
 }
 
