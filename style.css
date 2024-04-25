@@ -157,6 +157,7 @@ main {
 .sectionRight p,
 .sectionClients p {
     width: 50%;
+    
     margin-left: 25%;
 }
 
@@ -232,6 +233,14 @@ main {
     margin-bottom: 10px; 
   }
 }*/
+
+.vertical-line {
+  height: 100px; /* Ajusta la altura de la línea vertical según tus necesidades */
+  width: 10%; /* Ancho automático para mantener la proporción */
+  display: block;
+  margin: 0 auto; /* Centra la línea vertical horizontalmente */
+  margin-top: 50px;
+}
 
 .sectionAudioVisual p {
   width: 50%;
@@ -388,113 +397,6 @@ img {
 }
 
 
-/* ! NUESTRO EQUIPO */
-
-.container--equipo {
-  margin-top: 6rem;
-  gap: 60px;
-}
-
-.cardEquipo {
-  width: 280px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  border-radius: 60px;
-  box-shadow: 2px 2px 15px #d6d6d6;
-  position: relative;
-  padding-top: 85px;
-}
-
-.cardEquipo__picture {
-  position: absolute;
-  top: 0;
-  width: 130px;
-  height: 130px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-  border-radius: 50%;
-  background-color: var(--blanco);
-  box-shadow: 2px 2px 15px #d6d6d6;
-  transform: translateY(-50%);
-}
-
-.cardEquipo__picture--2 {
-  width: 110px;
-  height: 110px;
-  display: flex;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.cardEquipo__img {
-  width: 100%;
-  object-fit: cover;
-}
-
-.cardEquipo__div {
-  display: flex;
-  flex-direction: column;
-  gap: 7px;
-  padding: 0 20px;
-  width: calc(100% - 40px);
-}
-
-.cardEquipo__h3, .cardEquipo__p {
-  margin: 0;
-}
-
-.cardEquipo__p {
-  padding: 0 20px;
-}
-
-.cardEquipo__span {
-  font-weight: 500;
-}
-
-.cardEquipo__redes {
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0;
-  background-color: var(--primario);
-  margin: 0;
-  padding: 10px 5px;
-  width: calc(100% - 10px);
-  border-radius: 0 0 60px 60px;
-}
-.cardEquipo__a {
-  border-radius: 50%;
-  background-color: #ececec;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s;
-  text-decoration: none;
-  color: var(--negro);
-}
-
-  .cardEquipo__a:hover {
-      background-color: var(--secundario);
-  }
-  .cardEquipo__a:hover .cardEquipo__i {
-      color: var(--blanco);
-  }
-
-
-.cardEquipo__i {
-  transition: 0.3s;
-}
-
-.fa-whatsapp {
-  font-size: 20px;
-}
-
 .menu {
   width: 40%;
   position: fixed;
@@ -556,36 +458,6 @@ img {
   font-size: 18px;
 }
 
-.whatsapp-button-container {
-  border-radius: 20px;
-  padding: 10px 20px;
-  background-color: #01d26a;;
-  text-decoration: none;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
-  align-items: center;
-  color: white;
-  position: fixed;
-  bottom: 60px;
-  right: 3%;
-  z-index: 100;
-  transition: all 0.3s ease;
-  transform: scale(1);
-  font-size: 20px;
-  -webkit-box-shadow: 0px 20px 5px 0px rgba(1,141,75,1);
-  -moz-box-shadow: 0px 20px 5px 0px rgba(1,141,75,1);
-  box-shadow: 0px 10px 5px 0px rgba(1,141,75,1);
-}
-
-.fa-whatsapp {
-  font-size: 30px;
-}
-
-.whatsapp-button-container__text {
-  margin-left: 10px;
-  font-weight: 500;
-}
 
 .footer {
   margin-top: 30px;
