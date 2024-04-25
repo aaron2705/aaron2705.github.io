@@ -125,6 +125,19 @@ main {
     background-color: #0c1928;
 }
 
+@media only screen and (max-width: 400px) {
+  .hero__description {
+    text-align: right; 
+  }
+
+  .hero__title {
+      font-size: 24px; 
+  }
+
+  .hero__cta-button {
+      margin-top: 20px; 
+  }
+}
 .cardPadre {
   display: flex;
   flex-wrap: wrap;
@@ -163,18 +176,18 @@ main {
 @media only screen and (max-width: 767px) {
   .sectionContent {
     display: flex;
-      flex-direction: column; /* Vuelve a la disposición en fila en pantallas más grandes */
+      flex-direction: column; 
   }
   .sectionVertical {
-    display: none; /* Oculta la imagen en dispositivos móviles */
+    display: none; 
 } 
   
 
   .sectionLeft p,
   .sectionRight p,
   .sectionClients p {
-      width: 100%; /* Divide el ancho en pantallas más grandes */
-      margin-left: 0%; /* Ajusta el margen izquierdo en pantallas más grandes */
+      width: 100%; 
+      margin-left: 0%; 
   }
 }
 
