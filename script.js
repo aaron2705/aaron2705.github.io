@@ -65,5 +65,15 @@ document.getElementById('form')
 
   function ModoOscuro() {
     var body = document.body;
+    var darkModeIcon = document.getElementById("darkModeIcon");
+    var darkModeButton = document.getElementById("darkModeButton");
+
     body.classList.toggle("dark-mode");
+    if (body.classList.contains("dark-mode")) {
+        darkModeIcon.classList.remove("fa-moon");
+        darkModeIcon.classList.add("fa-sun");
+    } else {
+        darkModeIcon.classList.remove("fa-sun");
+        darkModeIcon.classList.add("fa-moon");
+    }
 }
