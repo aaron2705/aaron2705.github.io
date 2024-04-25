@@ -19,9 +19,11 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 600px;
+    height: 700px;
     gap: 100px;
     background: url("./src/imgs/bg.jpg") center/cover no-repeat;
+    opacity: 80%;
+    
 }
 
 .hero__header {
@@ -34,7 +36,7 @@ main {
 .hero__title {
   color: white;
   text-align: left;
-  margin-top: 300px;
+  margin-top: 400px;
   margin-right: 300px;
   width: 50%;
   display: inline-block
@@ -125,19 +127,7 @@ main {
     background-color: #0c1928;
 }
 
-@media only screen and (max-width: 400px) {
-  .hero__description {
-    text-align: right; 
-  }
 
-  .hero__title {
-      font-size: 24px; 
-  }
-
-  .hero__cta-button {
-      margin-top: 20px; 
-  }
-}
 .cardPadre {
   display: flex;
   flex-wrap: wrap;
@@ -173,7 +163,7 @@ main {
     margin-left: 25%;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 399px) {
   .sectionContent {
     display: flex;
       flex-direction: column; 
@@ -188,6 +178,20 @@ main {
   .sectionClients p {
       width: 100%; 
       margin-left: 0%; 
+  }
+
+  .hero__description {
+    text-align: center; 
+  }
+
+  .hero__title {
+    text-align: right; 
+      font-size: 24px; 
+  }
+
+  .hero__cta-button {
+    text-align: left; 
+      margin-top: 20px; 
   }
 }
 
@@ -530,22 +534,22 @@ img {
 .redes-sociales a {
   display: inline-block;
   margin-right: 10px;
-  color: #fff; /* Color del icono */
-  width: 40px; /* Ancho del botón */
-  height: 40px; /* Alto del botón */
-  border-radius: 50%; /* Forma redondeada */
+  color: #fff; 
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
   text-align: center;
-  line-height: 40px; /* Centra verticalmente el contenido */
-  transition: background-color 0.3s ease; /* Transición de color de fondo */
+  line-height: 40px; 
+  transition: background-color 0.3s ease; 
 }
 
 .redes-sociales a:hover {
-  background-color: #106fff; /* Cambio de color al pasar el ratón */
+  background-color: #106fff; 
 }
 
-/* Estilos para los íconos */
+
 .redes-sociales a i {
-  font-size: 20px; /* Tamaño del ícono */
+  font-size: 20px; 
 }
 
 @media (min-width: 768px) {
