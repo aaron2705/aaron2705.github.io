@@ -235,10 +235,10 @@ main {
 }*/
 
 .vertical-line {
-  height: 100px; /* Ajusta la altura de la línea vertical según tus necesidades */
-  width: 10%; /* Ancho automático para mantener la proporción */
+  height: 100px; 
+  width: 10%; 
   display: block;
-  margin: 0 auto; /* Centra la línea vertical horizontalmente */
+  margin: 0 auto; 
   margin-top: 50px;
 }
 
