@@ -170,8 +170,11 @@ main {
   }
   .sectionVertical {
     display: none; 
-} 
-  
+  }
+    .video {
+      max-width: 100%; /* Ajusta el ancho máximo del video */
+      height: auto; /* Altura automática para mantener la proporción */
+    }
 
   .sectionLeft p,
   .sectionRight p,
@@ -568,16 +571,6 @@ img {
 
 
 
-@media (max-width: 800px) {
-  .whatsapp-button-container__text {
-    display: none;
-  }
-
-  .whatsapp-button-container {
-    right: 3%;
-    padding: 10px 15px;
-  }
-}
 
 
 @media (width <= 1100px) {
@@ -599,13 +592,6 @@ img {
     margin: 20px 0;
   }
 
-  .imagen {
-    width: 500px;
-    height: 500px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 0 auto;
-  }
 }
 
 @media (width <= 800px) {
