@@ -14,6 +14,12 @@ main {
   overflow: hidden;
 }
 
+/*MODO OSCURITO*/
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -123,6 +129,23 @@ main {
     display: inline-block
 }
 
+.hero__dark-button {
+  display: flex;
+  width: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 700;
+  background-color: #000000;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  outline: none;
+  display: inline-block
+}
+
 .hero__cta-button:hover {
     background-color: #0c1928;
 }
@@ -172,8 +195,8 @@ main {
     display: none; 
   }
     .video {
-      max-width: 100%; /* Ajusta el ancho máximo del video */
-      height: auto; /* Altura automática para mantener la proporción */
+      max-width: 100%; 
+      height: auto; 
     }
 
   .sectionLeft p,
@@ -262,15 +285,6 @@ main {
 }
 
 
-/*@media only screen and (max-width: 768px) {
-  .photos .gallery {
-    display: block; 
-  }
-
-  .photos .gallery > div {
-    margin-bottom: 10px; 
-  }
-}*/
 
 .vertical-line {
   height: 100px; 
@@ -393,9 +407,8 @@ img {
     background-color: #1175ED;
 }
 
-/* ! Contable Laboral */
 
-/* * Portada */
+
 
 .portada {
   display: grid;

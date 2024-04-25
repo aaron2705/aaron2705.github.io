@@ -62,3 +62,8 @@ document.getElementById('form')
         alert(JSON.stringify(err));
       });
   });
+
+  function ModoOscuro() {
+    var body = document.body;
+    body.classList.toggle("dark-mode");
+}

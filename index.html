@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-5T5tFV8r/BDsLjkHHdI6ERGO9C4tRGayfYbqc29iXU2FsYz+/+79DR3C1o5IkwKx" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
   <script src="./script.js" defer></script>
   <title>Blue Lab Trujillo</title>
@@ -26,7 +27,8 @@
 
 </head>
 
-<body>
+<body class="dark-mode">
+
 
   <main>
     <section class="hero" id="Inicio">
@@ -41,6 +43,9 @@
             <li class="nav-list__item"><a href="#2" class="nav-list__link">BLOG</a></li>
             <li class="nav-list__item"><a href="#2" class="nav-list__link">SOBRE NOSOTROS</a></li>
             <li class="nav-list__item"><a href="#contacto" class="nav-list__link">INSCRIBETE</a></li>
+            <button class="hero__dark-button" onclick="ModoOscuro()">
+              <i class="fas fa-moon"></i>
+          </button>
           </ul>
 
           <i class="fa-solid fa-bars" id="hero__bars"></i>
